@@ -1,14 +1,7 @@
-# Module-06-Challenge
- python-api-challenge
+# Module-06-Challenge | python-api-challenge
 
+Cities closer to the 20 latitudes skew higher temperatures on avg.
 
-Figures seen in output data:
+Humidity can be found in many latitudes.
 
-Cities closer to the 20 latitude skiw higer temperature on avg. 
-
-
-Humidity can be found on many latitudes. 
-
-
-While the hisgest wind speed can be found betweeen -60 and - 40 Latitude, Latitude alone does not seem to be an indicator of high wind speed. 
-
+While the highest wind speed can be found between -60 and - 40 Latitude, Latitude alone does not seem to be an indicator of high wind speed.
