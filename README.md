@@ -2,7 +2,7 @@
  python-api-challenge
 
 
-Figure 1:
+Figures seen in output data:
 
 Cities closer to the 20 latitude skiw higer temperature on avg. 
 
