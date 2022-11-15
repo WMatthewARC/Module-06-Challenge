@@ -6,12 +6,12 @@ Now, we know what you may be thinking: "Duh. It gets hotter ..."
 But, if pressed, how would you prove it?
 
 
-### [Part 1 WeatherPy](#part-1-weatherpy)
-### [Part 2 VacationPy](#part-2-vacationpy)
+### [Part One WeatherPy](#part-one-weatherpy)
+### [Part Two VacationPy](#part-two-vacationpy)
 
 
 
-## Part 1 WeatherPy
+## Part One WeatherPy
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
@@ -38,7 +38,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 
 
-## Part 2 VacationPy
+## Part Two VacationPy
 
 Cities closer to the 20 latitudes skew higher temperatures on avg.
 
