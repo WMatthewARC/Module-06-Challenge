@@ -47,6 +47,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 ## Part 2: VacationPy
 Now, let's use your skills working with weather data to plan future vacations. Use Jupyter-gmaps and the Google Places API for this part of the assignment.
+
 * Create a heat map that displays the humidity for every city from Part 1
 * Narrow down the DataFrame to find your ideal weather condition
 * Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates
@@ -54,7 +55,7 @@ Now, let's use your skills working with weather data to plan future vacations. U
 
 
 ### * Create a heat map that displays the humidity for every city from Part 1
- * ![heatmap](https://user-images.githubusercontent.com/30300016/201990786-606066b8-ccfe-4652-a3d6-0dc5aff53a2a.png)
+  * ![heatmap](https://user-images.githubusercontent.com/30300016/201990786-606066b8-ccfe-4652-a3d6-0dc5aff53a2a.png)
 
 
 ### * Narrow down the DataFrame to find your ideal weather condition
@@ -68,5 +69,29 @@ Now, let's use your skills working with weather data to plan future vacations. U
   * ![Capture](https://user-images.githubusercontent.com/30300016/201991568-0f297218-2f7b-4954-aa3d-0e1b85d4bdad.JPG)
 
 
+### * Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country
+
+  * ![hotalmap](https://user-images.githubusercontent.com/30300016/201992305-4db6d957-55dc-4db5-8cff-9cfb04ad4de5.png)
+
+
 
 ## Results: VacationPy
+That was alot to get this list that meet this of hotals that meet this ideal weather condtion. 
+
+      Kamenskaya Oosh
+      Avenue A Realty Ltd Brokerage
+      Avenue A Realty Ltd Brokerage
+      Avenue A Realty Ltd Brokerage
+      Hotel Laguna
+      Μεταλλευτικές Εγκαταστάσεις Στρατωνίου / Stratoni Mining Facilities
+      Shazam Atm
+      Zags
+      Silk Road Hotel Termez
+      Lodja, Republica Democrática do Congo
+      Budget House
+      ISGN - Chibuto (Higher Institute of Business Management
+      Hotel Avenida
+![image](https://user-images.githubusercontent.com/30300016/201992876-8b7734d5-474c-474d-b290-f0c4066d95cd.png)
+
+
+
