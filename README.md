@@ -37,7 +37,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 * ![SouthHemivsWind](https://user-images.githubusercontent.com/30300016/201981957-b7af0909-9a88-412d-91b9-e28883e56512.JPG)
 
 
-## Results:
+## Results: WeatherPy
 
 * Cities closer to the 20 latitudes skew higher temperatures on avg.
 * Humidity can be found in many latitudes.
@@ -46,5 +46,17 @@ The first requirement is to create a series of scatter plots to showcase the fol
 ---------------------------------------------------------------------------------
 
 ## Part 2: VacationPy
+Now, let's use your skills working with weather data to plan future vacations. Use Jupyter-gmaps and the Google Places API for this part of the assignment.
+* Create a heat map that displays the humidity for every city from Part 1.
+* Narrow down the DataFrame to find your ideal weather condition.
+* Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
+* Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country.
 
 
+### * Create a heat map that displays the humidity for every city from Part 1.
+
+
+
+
+
+## Results: VacationPy
