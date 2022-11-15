@@ -91,7 +91,7 @@ That was alot to get this list that meet this of hotals that meet this ideal wea
       Budget House
       ISGN - Chibuto (Higher Institute of Business Management
       Hotel Avenida
-![image](https://user-images.githubusercontent.com/30300016/201992876-8b7734d5-474c-474d-b290-f0c4066d95cd.png)
 
 
-
+Thank you for your time. 
+Matt-- 
