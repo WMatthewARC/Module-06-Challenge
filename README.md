@@ -76,7 +76,7 @@ Now, let's use your skills working with weather data to plan future vacations. U
 
 
 ## Results: VacationPy
-That was alot to get this list that meet this of hotals that meet this ideal weather condtion. 
+That was a lot to get this list of hotels that meet all these ideal weather conditions.
 
       Kamenskaya Oosh
       Avenue A Realty Ltd Brokerage
