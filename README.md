@@ -13,11 +13,23 @@ The first requirement is to create a series of scatter plots to showcase the fol
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-## Temperature (F) vs. Latitude
-![NorthLinearRegression](https://user-images.githubusercontent.com/30300016/201977058-a0bd1746-700d-4545-a5c9-cad4fc812909.JPG)![SouthLinearRegression](https://user-images.githubusercontent.com/30300016/201977070-6d13a251-cdbc-4f6a-a3cd-e2f0212c25cf.JPG)
+### * Temperature (F) vs. Latitude
+* ![NorthLinearRegression](https://user-images.githubusercontent.com/30300016/201977058-a0bd1746-700d-4545-a5c9-cad4fc812909.JPG)
+* ![SouthLinearRegression](https://user-images.githubusercontent.com/30300016/201977070-6d13a251-cdbc-4f6a-a3cd-e2f0212c25cf.JPG)
+
+### * Humidity (%) vs. Latitude
+* ![NorthHemivsHumidity](https://user-images.githubusercontent.com/30300016/201981591-457a0bb6-cbea-4451-bae9-8204e6592c2f.JPG)
+* ![SouthHemivsHumidity](https://user-images.githubusercontent.com/30300016/201981677-34e95385-393e-42df-a7ff-54eedf949c22.JPG)
 
 
+### * Cloudiness (%) vs. Latitude
 
+* ![NorthHemivsClouds](https://user-images.githubusercontent.com/30300016/201981841-1fa8e2fd-e884-4e72-9341-ebfdb69ac13c.JPG)
+* ![SouthHemivsClouds](https://user-images.githubusercontent.com/30300016/201981860-bd4a1f38-d228-4a14-8b3d-07166de24656.JPG)
+
+### * Wind Speed (mph) vs. Latitude
+* ![NorthHemivsWind](https://user-images.githubusercontent.com/30300016/201981985-1dcbf551-f1b2-4000-a695-c2142540fa01.JPG)
+* ![SouthHemivsWind](https://user-images.githubusercontent.com/30300016/201981957-b7af0909-9a88-412d-91b9-e28883e56512.JPG)
 
 
 
