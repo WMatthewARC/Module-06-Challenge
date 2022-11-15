@@ -64,7 +64,8 @@ Now, let's use your skills working with weather data to plan future vacations. U
       
       
 ### * Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates
-                        baseURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
+    ```
+    baseURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
 #search for the hotels
 
@@ -109,7 +110,10 @@ for index, row in hotel_df.iterrows():
     
     print("--------------------------------------")
     
-    ![Capture](https://user-images.githubusercontent.com/30300016/201991568-0f297218-2f7b-4954-aa3d-0e1b85d4bdad.JPG)
+    ```
+    
+    
+ ![Capture](https://user-images.githubusercontent.com/30300016/201991568-0f297218-2f7b-4954-aa3d-0e1b85d4bdad.JPG)
 
 
 
