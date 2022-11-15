@@ -53,7 +53,10 @@ Now, let's use your skills working with weather data to plan future vacations. U
 * Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country.
 
 
-### * Create a heat map that displays the humidity for every city from Part 1.
+### * Create a heat map that displays the humidity for every city from Part 1
+  *![heatmap](https://user-images.githubusercontent.com/30300016/201990786-606066b8-ccfe-4652-a3d6-0dc5aff53a2a.png)
+ * ![HeatMapSNP](https://user-images.githubusercontent.com/30300016/201990823-2e87c75b-0ff0-4044-81f4-e5df5b688d0a.JPG)
+
 
 
 
