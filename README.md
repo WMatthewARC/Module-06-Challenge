@@ -11,7 +11,7 @@ But, if pressed, how would you prove it?
 
 
 
-## Part 1: links WeatherPy
+## Part 1 WeatherPy
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
@@ -38,7 +38,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 
 
-## Part 2: VacationPy
+## Part 2 VacationPy
 
 Cities closer to the 20 latitudes skew higher temperatures on avg.
 
