@@ -5,6 +5,13 @@ Whether financial, political, or social—data's true power rests in its ability
 Now, we know what you may be thinking: "Duh. It gets hotter ..."
 But, if pressed, how would you prove it?
 
+[Go to Real Cool Heading section](#real-cool-heading)
+
+
+### [Part 1: WeatherPy](part-1:-weatherpy)
+### Part 2: VacationPy
+
+
 
 ## Part 1: WeatherPy
 The first requirement is to create a series of scatter plots to showcase the following relationships:
@@ -33,6 +40,7 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 
 
+## Part 2: VacationPy
 
 Cities closer to the 20 latitudes skew higher temperatures on avg.
 
