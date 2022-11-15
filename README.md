@@ -47,21 +47,69 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 ## Part 2: VacationPy
 Now, let's use your skills working with weather data to plan future vacations. Use Jupyter-gmaps and the Google Places API for this part of the assignment.
-* Create a heat map that displays the humidity for every city from Part 1.
-* Narrow down the DataFrame to find your ideal weather condition.
-* Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
-* Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country.
+* Create a heat map that displays the humidity for every city from Part 1
+* Narrow down the DataFrame to find your ideal weather condition
+* Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates
+* Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country
 
 
 ### * Create a heat map that displays the humidity for every city from Part 1
  * ![heatmap](https://user-images.githubusercontent.com/30300016/201990786-606066b8-ccfe-4652-a3d6-0dc5aff53a2a.png)
 
 
-### * Narrow down the DataFrame to find your ideal weather condition.
-      `# Filter cities by Max Temp between 70 and 80, Humidity less than 51%, and Cloudiness < 30%
+### * Narrow down the DataFrame to find your ideal weather condition
+      # Filter cities by Max Temp between 70 and 80, Humidity less than 51%, and Cloudiness < 30%
       ideal_cities_df = city_data_df[(city_data_df["Max Temp"]<81) & (city_data_df["Max Temp"]>70) & (city_data_df["Humidity"]<51) & (city_data_df["Cloudiness"]<30)]
-      ideal_cities_df`
+      ideal_cities_df
+      
+      
+### * Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates
+                        baseURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
+#search for the hotels
+
+target_radius = 5000
+target_type = "hotel"
+
+
+# dictionary of parameters to update at each iteration 
+parameters = {
+    "type": target_type,
+    "radius" :target_radius,
+    "key": g_key
+}
+
+# use iterrows() to iterate through the rows in the DF
+for index, row in hotel_df.iterrows():
+    #grab the latitudes and longitudes from the columns in the DF
+    latitude = row['Lat']
+    longitude = row['Lng']
+    
+    # change location each iteration while leaving original params in place
+    parameters["location"] = f"{latitude},{longitude}"
+    
+    
+    # Use the search term: "Hotel" and our lat/lng
+    base_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
+
+    # make request and print url
+    hotel_response = requests.get(base_url, params=parameters)
+  
+
+    # convert to json
+    hotel_json = hotel_response.json()
+    #pprint(hotel_json) # to check the indices of the hotel name 
+    
+ 
+    try:
+        hotel_df.loc[index, "Hotel Name"] = hotel_json["results"][1]["name"]
+        print(f"First hotel in {target_radius} meters is {hotel_json['results'][1]['name']}")
+    except (KeyError, IndexError):
+        print("Missing field/result... skipping.")
+    
+    print("--------------------------------------")
+    
+    ![Capture](https://user-images.githubusercontent.com/30300016/201991568-0f297218-2f7b-4954-aa3d-0e1b85d4bdad.JPG)
 
 
 
