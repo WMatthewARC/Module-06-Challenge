@@ -58,13 +58,9 @@ Now, let's use your skills working with weather data to plan future vacations. U
 
 
 ### * Narrow down the DataFrame to find your ideal weather condition.
-`# Filter cities by Max Temp between 70 and 80, Humidity less than 51%, and Cloudiness < 30%
-
-
-ideal_cities_df = city_data_df[(city_data_df["Max Temp"]<81) & (city_data_df["Max Temp"]>70) & (city_data_df["Humidity"]<51) & (city_data_df["Cloudiness"]<30)]
-
-
-ideal_cities_df`
+      `# Filter cities by Max Temp between 70 and 80, Humidity less than 51%, and Cloudiness < 30%
+      ideal_cities_df = city_data_df[(city_data_df["Max Temp"]<81) & (city_data_df["Max Temp"]>70) & (city_data_df["Humidity"]<51) & (city_data_df["Cloudiness"]<30)]
+      ideal_cities_df`
 
 
 
