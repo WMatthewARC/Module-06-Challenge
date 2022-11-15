@@ -54,10 +54,17 @@ Now, let's use your skills working with weather data to plan future vacations. U
 
 
 ### * Create a heat map that displays the humidity for every city from Part 1
-  *![heatmap](https://user-images.githubusercontent.com/30300016/201990786-606066b8-ccfe-4652-a3d6-0dc5aff53a2a.png)
- * ![HeatMapSNP](https://user-images.githubusercontent.com/30300016/201990823-2e87c75b-0ff0-4044-81f4-e5df5b688d0a.JPG)
+ * ![heatmap](https://user-images.githubusercontent.com/30300016/201990786-606066b8-ccfe-4652-a3d6-0dc5aff53a2a.png)
 
 
+### * Narrow down the DataFrame to find your ideal weather condition.
+`# Filter cities by Max Temp between 70 and 80, Humidity less than 51%, and Cloudiness < 30%
+
+
+ideal_cities_df = city_data_df[(city_data_df["Max Temp"]<81) & (city_data_df["Max Temp"]>70) & (city_data_df["Humidity"]<51) & (city_data_df["Cloudiness"]<30)]
+
+
+ideal_cities_df`
 
 
 
